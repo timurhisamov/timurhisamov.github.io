@@ -1,7 +1,7 @@
 ---
 layout: post
-title: git-profile switch
-subtitle: Each post also about .ssh/config settings
+title: git profile switch
+subtitle: also about push from 2 diff accounts
 ---
 
 Then I try to start this blog, I need to switch git profiles between work and home.

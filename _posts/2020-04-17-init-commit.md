@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Init commit
+title: init commit
 ---
 
 Init commit! Now I have my blog. 

@@ -20,26 +20,30 @@ Then, I tried to push commits to origin and it was failed. Push called global pr
 
 Commands for zoomers and lazy people like me:
 ```bash
+# edit ssh config
 vim ~/.ssh/config
 -----------------
-#work
+# work profile
 Host github.com
     HostName github.com
     User git
     IdentityFile ~/.ssh/id_rsa_work
-#home
+# home profile
 Host github-home
     HostName github.com
     User git
     IdentityFile ~/.ssh/id_rsa_home
 ```
+
+Then:
+
 ```bash
 git clone git@github.com/<repo dir>
 cd <repo dir>
 vim .git/config
-#change github.com to github-home address in origin
+# change github.com to github-home address in origin
 git-profile use home
-#check configs by
+# check configs by
 git config --list
 git add .
 git commit -m "push from home"
